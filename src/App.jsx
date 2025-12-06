@@ -14,11 +14,15 @@ import { Heart } from 'lucide-react';
 
 function App() {
   const [showWelcome, setShowWelcome] = useState(true);
+  const [isMusicPlaying, setIsMusicPlaying] = useState(false);
 
   return (
     <div className="min-h-screen bg-rose-50 font-sans text-gray-800 selection:bg-rose-200 selection:text-rose-900">
       <AnimatePresence>
-        {showWelcome && <WelcomeScreen onComplete={() => setShowWelcome(false)} />}
+        {showWelcome && <WelcomeScreen onComplete={() => {
+          setShowWelcome(false);
+          setIsMusicPlaying(true);
+        }} />}
       </AnimatePresence>
       <Hero />
       <Stats />
@@ -28,7 +32,7 @@ function App() {
       <BucketList />
       <LoveLetters />
       <Dedication />
-      <MusicPlayer />
+      <MusicPlayer autoPlay={isMusicPlaying} />
 
       <footer className="bg-white py-12 text-center text-gray-500 text-sm border-t border-rose-100">
         <p className="flex items-center justify-center gap-2 mb-2 font-medium">

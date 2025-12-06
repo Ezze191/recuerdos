@@ -56,7 +56,7 @@ const WelcomeScreen = ({ onComplete }) => {
                 initial={{ scale: 0.8, opacity: 0 }}
                 animate={{ scale: 1, opacity: 1 }}
                 transition={{ duration: 1, delay: 0.5 }}
-                className="z-10 text-center"
+                className="z-10 text-center px-4"
             >
                 <motion.div
                     animate={{ scale: [1, 1.2, 1] }}
@@ -66,7 +66,16 @@ const WelcomeScreen = ({ onComplete }) => {
                     <Heart size={80} className="text-rose-600 drop-shadow-lg" fill="#e11d48" />
                 </motion.div>
                 <h1 className="font-script text-6xl text-rose-600 mb-2">Sergio y Karen</h1>
-                <p className="text-rose-400 text-lg typewriter">Cargando nuestros recuerdos...</p>
+                <p className="text-rose-400 text-lg mb-8">Nuestra historia comienza aquí...</p>
+
+                <motion.button
+                    onClick={onComplete}
+                    whileHover={{ scale: 1.05 }}
+                    whileTap={{ scale: 0.95 }}
+                    className="bg-rose-500 text-white px-8 py-3 rounded-full font-bold shadow-lg hover:bg-rose-600 transition-colors flex items-center gap-2 mx-auto"
+                >
+                    Entrar <Heart size={20} fill="currentColor" />
+                </motion.button>
             </motion.div>
         </motion.div>
     );
