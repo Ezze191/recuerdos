@@ -7,7 +7,7 @@ const Dedication = () => {
             {/* Parallax Background Image */}
             <div
                 className="absolute inset-0 bg-cover bg-center bg-fixed z-0"
-                style={{ backgroundImage: 'url("https://images.unsplash.com/photo-1516054575922-f0b8eeadec1a?ixlib=rb-1.2.1&auto=format&fit=crop&w=1950&q=80")' }}
+                style={{ backgroundImage: 'url("https://i.pinimg.com/736x/22/e6/30/22e630269fcc634f726297ee6079a7c5.jpg")' }}
             >
                 <div className="absolute inset-0 bg-black/40"></div>
             </div>

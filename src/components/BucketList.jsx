@@ -3,14 +3,15 @@ import { motion } from 'framer-motion';
 import { Check, Circle } from 'lucide-react';
 
 const goals = [
-    { text: "Ver una aurora boreal", completed: false },
-    { text: "Aprender a cocinar juntos un plato exótico", completed: true },
-    { text: "Viajar a Japón", completed: false },
-    { text: "Tener un maratón de películas de 24h", completed: true },
-    { text: "Adoptar una mascota", completed: false },
-    { text: "Bailar bajo la lluvia", completed: true },
-    { text: "Construir nuestro propio hogar", completed: false },
-    { text: "Hacer un picnic en la playa al atardecer", completed: true },
+    { text: "Viajar Juntos", completed: true },
+    { text: "Aprender a cocinar juntos", completed: true },
+    { text: "Ir a una cabaña", completed: false },
+    { text: "Pasar año nuevo juntos", completed: true },
+    { text: "Adoptar una mascota juntos", completed: false },
+    { text: "Tener una cinta romantica bajo la lluvia", completed: false },
+    { text: "Tener ingresos estables donde estemos involucrados los dos", completed: false },
+    { text: "Hacer un picnic en el bosque", completed: true },
+    { text: "Pasar navidad juntos", completed: false },
 ];
 
 const BucketList = () => {
@@ -33,8 +34,8 @@ const BucketList = () => {
                             whileInView={{ opacity: 1, x: 0 }}
                             transition={{ delay: index * 0.05 }}
                             className={`flex items-center p-4 rounded-xl border transition-all ${goal.completed
-                                    ? 'bg-white border-rose-200 shadow-sm opacity-70'
-                                    : 'bg-white border-rose-400 shadow-md transform hover:-translate-y-1'
+                                ? 'bg-white border-rose-200 shadow-sm opacity-70'
+                                : 'bg-white border-rose-400 shadow-md transform hover:-translate-y-1'
                                 }`}
                         >
                             <div className={`mr-4 p-1 rounded-full ${goal.completed ? 'bg-rose-100 text-rose-400' : 'bg-rose-500 text-white'}`}>

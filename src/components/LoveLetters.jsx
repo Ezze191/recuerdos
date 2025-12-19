@@ -3,9 +3,13 @@ import { motion } from 'framer-motion';
 import { Heart } from 'lucide-react';
 
 const messages = [
-    { title: "Tu Sonrisa", text: "Tiene el poder de cambiar mi día entero en un segundo." },
-    { title: "Nuestra Complicidad", text: "Entendernos con solo una mirada es mi superpoder favorito." },
-    { title: "Tu Bondad", text: "Tu corazón noble me inspira a ser mejor persona cada día." },
+    { title: "Tu Sonrisa", text: "Haria lo que fuera por verte sonreir siempre." },
+    { title: "Tu Ojos", text: "Siempre cuando me miras me pongo nervioso como si fuera la primera vez que te veo." },
+    { title: "Tu forma de ser", text: "Siempre me facina como me tratas y como tratas a las demas personas simplemente eres la mejor persona que eh conocido." },
+    { title: "Momentos Dificiles", text: "Amo la manera en que arreglamos cuando las cosas no se ponen faciles." },
+    { title: "Momentos Inolvidables", text: "Hemos vivido momentos que simplemente parecen salidos de una pelicula de amor" },
+    { title: "Simplemente tu", text: "Simplemente eres la persona que amo mas en todo el mundo y me facina estar siempre contigo" },
+    { title: "Chekin y Karenki", text: "Amo los apodos de amor que tenemos y todas las ocurrencias cuando estamos juntos" },
 ];
 
 const LoveLetters = () => {

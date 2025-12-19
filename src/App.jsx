@@ -36,9 +36,9 @@ function App() {
 
       <footer className="bg-white py-12 text-center text-gray-500 text-sm border-t border-rose-100">
         <p className="flex items-center justify-center gap-2 mb-2 font-medium">
-          Hecho con <Heart size={16} className="text-rose-500 fill-rose-500 animate-pulse" /> para ti
+          Hecho con <Heart size={16} className="text-rose-500 fill-rose-500 animate-pulse" /> para timi amor -Sergio
         </p>
-        <p className="opacity-60">© {new Date().getFullYear()} Nuestra Historia de Amor</p>
+        <p className="opacity-60">© {new Date().getFullYear()} Sergio y Karen</p>
       </footer>
     </div>
   );

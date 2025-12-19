@@ -2,10 +2,10 @@ import React from 'react';
 import { motion } from 'framer-motion';
 
 const events = [
-    { date: 'El Comienzo', title: 'Cuando nos conocimos', description: 'Un día cualquiera que se convirtió en el mejor de mi vida.' },
-    { date: 'Primera Cita', title: 'Nuestra primera salida', description: 'Nervios, risas y la certeza de que quería verte de nuevo.' },
-    { date: 'Momentos', title: 'Nuestras aventuras', description: 'Cada viaje, cada cena, cada paseo de la mano construyendo nuestra historia.' },
-    { date: 'Futuro', title: 'Lo que viene', description: 'Soñando con todo lo que nos falta por vivir juntos.' },
+    { date: 'El Comienzo', title: 'Cuando nos conocimos', description: 'Nunca voy a olvidar cuando entre por primera vez a esa tienda y ver el amor de mi vida simplemente senti todo lo que nunca habia sentido' },
+    { date: 'Primera Cita', title: 'Nuestra primera salida', description: 'Despues de varias adversidades por fin tuvimos una cita juntos y senti que todo valia la pena al verte a los ojos.' },
+    { date: 'Momentos', title: 'Nuestras aventuras', description: 'Cada cosa que hemos vivido juntos son momentos inolvidables que los llevo tatuato en mi corazon.' },
+    { date: 'Futuro', title: 'Lo que viene', description: 'Soñando con todo lo que nos falta por vivir juntos y crecer juntos para que podamos disfrutar de todo lo que la vida nos traiga.' },
 ];
 
 const Timeline = () => {

@@ -4,28 +4,52 @@ import { motion, AnimatePresence } from 'framer-motion';
 
 const songs = [
     {
-        title: "Perfect",
-        artist: "Ed Sheeran",
-        url: "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-1.mp3",
-        cover: "https://images.unsplash.com/photo-1619983081563-430f63602796?auto=format&fit=crop&w=400&q=80"
+        title: "Congratulations",
+        artist: "Mac Miller",
+        url: "/music y poster/1.mp3",
+        cover: "/music y poster/1.jpg"
     },
     {
-        title: "A Thousand Years",
-        artist: "Christina Perri",
-        url: "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-10.mp3",
-        cover: "https://images.unsplash.com/photo-1518609878373-06d740f60d8b?auto=format&fit=crop&w=400&q=80"
+        title: "Maripositas",
+        artist: "Sabino",
+        url: "/music y poster/2.mp3",
+        cover: "/music y poster/2.jpg"
     },
     {
-        title: "All of Me",
-        artist: "John Legend",
-        url: "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-3.mp3",
-        cover: "https://images.unsplash.com/photo-1511671782779-c97d3d27a1d4?auto=format&fit=crop&w=400&q=80"
+        title: "LQRA Session #5",
+        artist: "Charles Ans x Neto Peña x Yoss Bones",
+        url: "/music y poster/3.mp3",
+        cover: "/music y poster/3.jpg"
     },
     {
-        title: "Just the Way You Are",
-        artist: "Bruno Mars",
-        url: "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-8.mp3",
-        cover: "https://images.unsplash.com/photo-1520872024865-3658a179c3ac?auto=format&fit=crop&w=400&q=80"
+        title: "Querer Querernos",
+        artist: "Canserbero",
+        url: "/music y poster/4.mp3",
+        cover: "/music y poster/4.jpg"
+    },
+    {
+        title: "Guapa",
+        artist: "Sabino",
+        url: "/music y poster/5.mp3",
+        cover: "/music y poster/5.jpg"
+    },
+    {
+        title: "Morocha",
+        artist: "Milo J",
+        url: "/music y poster/6.mp3",
+        cover: "/music y poster/6.jpg"
+    },
+    {
+        title: "Hold On",
+        artist: "Justin Bieber",
+        url: "/music y poster/7.mp3",
+        cover: "/music y poster/7.jpg"
+    },
+    {
+        title: "Mamichula",
+        artist: "Trueno x Nicki Nicole",
+        url: "/music y poster/8.mp3",
+        cover: "/music y poster/8.jpg"
     }
 ];
 
