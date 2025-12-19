@@ -38,6 +38,22 @@ const UpcomingEvents = () => {
             icon: Cake,
             color: 'red',
             description: '¡4 años de amor!'
+        },
+        {
+            id: 5,
+            name: 'Cumpleaños de Karenki',
+            date: '2026-07-16',
+            icon: Cake,
+            color: 'red',
+            description: 'El cumpleaños de mi persona favorita'
+        },
+        {
+            id: 6,
+            name: 'Cumpleaños de Chekin',
+            date: '2026-06-19',
+            icon: Cake,
+            color: 'red',
+            description: 'El cumpleaños de mi Chekin'
         }
     ];
 

@@ -6,50 +6,50 @@ const songs = [
     {
         title: "Congratulations",
         artist: "Mac Miller",
-        url: "/music y poster/1.mp3",
-        cover: "/music y poster/1.jpg"
+        url: "./music y poster/1.mp3",
+        cover: "./music y poster/1.jpg"
     },
     {
         title: "Maripositas",
         artist: "Sabino",
-        url: "/music y poster/2.mp3",
-        cover: "/music y poster/2.jpg"
+        url: "./music y poster/2.mp3",
+        cover: "./music y poster/2.jpg"
     },
     {
         title: "LQRA Session #5",
         artist: "Charles Ans x Neto Peña x Yoss Bones",
-        url: "/music y poster/3.mp3",
-        cover: "/music y poster/3.jpg"
+        url: "./music y poster/3.mp3",
+        cover: "./music y poster/3.jpg"
     },
     {
         title: "Querer Querernos",
         artist: "Canserbero",
-        url: "/music y poster/4.mp3",
-        cover: "/music y poster/4.jpg"
+        url: "./music y poster/4.mp3",
+        cover: "./music y poster/4.jpg"
     },
     {
         title: "Guapa",
         artist: "Sabino",
-        url: "/music y poster/5.mp3",
-        cover: "/music y poster/5.jpg"
+        url: "./music y poster/5.mp3",
+        cover: "./music y poster/5.jpg"
     },
     {
         title: "Morocha",
         artist: "Milo J",
-        url: "/music y poster/6.mp3",
-        cover: "/music y poster/6.jpg"
+        url: "./music y poster/6.mp3",
+        cover: "./music y poster/6.jpg"
     },
     {
         title: "Hold On",
         artist: "Justin Bieber",
-        url: "/music y poster/7.mp3",
-        cover: "/music y poster/7.jpg"
+        url: "./music y poster/7.mp3",
+        cover: "./music y poster/7.jpg"
     },
     {
         title: "Mamichula",
         artist: "Trueno x Nicki Nicole",
-        url: "/music y poster/8.mp3",
-        cover: "/music y poster/8.jpg"
+        url: "./music y poster/8.mp3",
+        cover: "./music y poster/8.jpg"
     }
 ];
 

@@ -4,14 +4,14 @@ import { Shuffle, Trophy, Clock, Star } from 'lucide-react';
 
 // Usa las fotos de la galería - Toma 8 fotos para hacer 16 cartas (8 pares)
 const memoryImages = [
-    "/recuerdos/0C4B565E-26F1-4336-A5D6-C90E5323688C.JPG",
-    "/recuerdos/23-12-14 20-35-40 2154.jpg",
-    "/recuerdos/23-12-23 22-57-17 2229.jpg",
-    "/recuerdos/23-12-23 23-14-52 2236.jpg",
-    "/recuerdos/25-11-16 20-54-49 6.jpg",
-    "/recuerdos/576A04CD-BC9C-4842-9DEC-38CC3D8B19CE.JPG",
-    "/recuerdos/APRN0146.JPG",
-    "/recuerdos/AYGE6848.JPG",
+    "./recuerdos/0C4B565E-26F1-4336-A5D6-C90E5323688C.JPG",
+    "./recuerdos/23-12-14 20-35-40 2154.jpg",
+    "./recuerdos/23-12-23 22-57-17 2229.jpg",
+    "./recuerdos/23-12-23 23-14-52 2236.jpg",
+    "./recuerdos/25-11-16 20-54-49 6.jpg",
+    "./recuerdos/576A04CD-BC9C-4842-9DEC-38CC3D8B19CE.JPG",
+    "./recuerdos/APRN0146.JPG",
+    "./recuerdos/AYGE6848.JPG",
 ];
 
 const MemoryGame = () => {

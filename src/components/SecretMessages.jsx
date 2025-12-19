@@ -13,38 +13,24 @@ const secretMessages = [
     },
     {
         id: 2,
+        unlockDate: '2025-12-25', // Navidad
+        title: 'Feliz Navidad Amor 🎉',
+        message: 'Espero que te haya gustado mucho tu regalo de navidad amor te amo demasiado jeje ',
+        icon: '🎂'
+    },
+    {
+        id: 3,
         unlockDate: '2026-01-01', // Año nuevo
         title: 'Nuevo Año, Mismo Amor ✨',
         message: 'Un nuevo año comienza, pero mi amor por ti solo crece. Gracias por ser mi compañera en esta vida. Que este año nos traiga más momentos inolvidables juntos. 🥂',
         icon: '🎆'
     },
     {
-        id: 3,
-        unlockDate: '2026-02-14', // San Valentín
-        title: 'Día del Amor 💝',
-        message: 'No necesito un día especial para decirte cuánto te amo, pero hoy quiero recordarte que eres el amor de mi vida. Cada latido de mi corazón es para ti. 💗',
-        icon: '💝'
-    },
-    {
         id: 4,
-        unlockDate: '2026-03-22', // 3 años y 3 meses
-        title: 'Tres Meses Más 🌸',
-        message: 'Cada mes que pasa contigo es mejor que el anterior. Gracias por llenar mi vida de color y alegría. Te amo infinitamente. 🌺',
-        icon: '🌸'
-    },
-    {
-        id: 5,
-        unlockDate: '2026-06-22', // 3 años y 6 meses
-        title: 'Medio Año Más de Amor 🌟',
-        message: 'Seis meses más de risas, aventuras y amor incondicional. Eres mi persona favorita en todo el mundo. 💫',
-        icon: '⭐'
-    },
-    {
-        id: 6,
-        unlockDate: '2026-12-22', // 4to aniversario
-        title: '¡4 Años de Amor! 🎊',
-        message: 'Cuatro años de construir nuestro mundo juntos. Cada momento a tu lado es perfecto. Gracias por ser mi todo. Te amo hoy y siempre. 💖',
-        icon: '🎊'
+        unlockDate: '2026-01-22', // Año nuevo
+        title: '3 Años y 1 Mes',
+        message: 'Aqui comienza nuestra nueva aventura juntos teniendo 3 años de amor',
+        icon: '🎆'
     }
 ];
 
