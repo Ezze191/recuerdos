@@ -10,6 +10,11 @@ import LoveLetters from './components/LoveLetters';
 import Dedication from './components/Dedication';
 import MusicPlayer from './components/MusicPlayer';
 import WelcomeScreen from './components/WelcomeScreen';
+import SecretMessages from './components/SecretMessages';
+import MemoryDiary from './components/MemoryDiary';
+import LoveMailbox from './components/LoveMailbox';
+import UpcomingEvents from './components/UpcomingEvents';
+import LoveGames from './components/LoveGames';
 import { Heart } from 'lucide-react';
 
 function App() {
@@ -26,10 +31,15 @@ function App() {
       </AnimatePresence>
       <Hero />
       <Stats />
+      <UpcomingEvents />
+      <SecretMessages />
       <Timeline />
       <Gallery />
+      <LoveGames />
+      <MemoryDiary />
       <QuoteSection />
       <BucketList />
+      <LoveMailbox />
       <LoveLetters />
       <Dedication />
       <MusicPlayer autoPlay={isMusicPlaying} />
