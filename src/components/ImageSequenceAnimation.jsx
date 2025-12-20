@@ -52,7 +52,7 @@ const ImageSequenceAnimation = () => {
                             {[1, 2, 3, 4].map((frameNum, index) => (
                                 <motion.img
                                     key={frameNum}
-                                    src={`/animation/${frameNum}.png`}
+                                    src={`./animation/${frameNum}.png`}
                                     alt={`Frame ${frameNum}`}
                                     className="absolute inset-0 w-full h-full object-contain"
                                     initial={{ opacity: 0 }}
