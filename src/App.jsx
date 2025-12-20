@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import { AnimatePresence } from 'framer-motion';
 import Hero from './components/Hero';
+import ImageSequenceAnimation from './components/ImageSequenceAnimation';
 import Stats from './components/Stats';
 import Timeline from './components/Timeline';
 import Gallery from './components/Gallery';
@@ -30,6 +31,7 @@ function App() {
         }} />}
       </AnimatePresence>
       <Hero />
+      <ImageSequenceAnimation />
       <Stats />
       <UpcomingEvents />
       <SecretMessages />

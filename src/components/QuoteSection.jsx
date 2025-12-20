@@ -24,6 +24,27 @@ const quotes = [
         text: "you were everything I ever wanted.",
         author: "Mac Miller"
     },
+    {
+        text: "Dame la mano y siente como enbona con la mia.",
+        author: "Sabino"
+    },
+    {
+        text: "Viajria de aqui a la luna solo para poder verte.",
+        author: "Gera Mx"
+    },
+    {
+        text: "Si vas a ser la reina yo quiero ser el King.",
+        author: "Charles ans"
+    },
+    {
+        text: "Eres necesidad para mi realidad.",
+        author: "Neto Peña"
+    },
+
+    {
+        text: "Eres lo mas hermosa que hay o solo te pareces.",
+        author: "Neto Peña"
+    },
 
 ];
 
