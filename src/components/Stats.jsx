@@ -4,7 +4,8 @@ import { Calendar, Clock, Heart, Timer } from 'lucide-react';
 
 const Stats = () => {
     // Fecha de inicio de la relación: 22 de diciembre de 2022 a las 10:25 PM
-    const startDate = new Date('2022-12-22T22:25:00');
+    // Using explicit local timezone constructor to avoid any UTC offset issues
+    const startDate = new Date(2022, 11, 22, 22, 25, 0, 0); // Month is 0-indexed (11 = December)
 
     const [timeElapsed, setTimeElapsed] = useState({
         years: 0,
@@ -19,6 +20,7 @@ const Stats = () => {
         const calculateTime = () => {
             const now = new Date();
 
+            // Calculate total difference
             let years = now.getFullYear() - startDate.getFullYear();
             let months = now.getMonth() - startDate.getMonth();
             let days = now.getDate() - startDate.getDate();
@@ -44,11 +46,12 @@ const Stats = () => {
                 days--;
             }
 
-            // Ajustar días
+            // Ajustar días - FIX: Calculate days in previous month correctly
             if (days < 0) {
-                const prevMonth = new Date(now.getFullYear(), now.getMonth(), 0);
-                days += prevMonth.getDate();
-                months--;
+                months--; // First decrement the month
+                // Get the number of days in the previous month
+                const prevMonthDate = new Date(now.getFullYear(), now.getMonth(), 0);
+                days += prevMonthDate.getDate();
             }
 
             // Ajustar meses

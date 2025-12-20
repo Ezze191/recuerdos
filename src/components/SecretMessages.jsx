@@ -43,8 +43,9 @@ const SecretMessages = () => {
         today.setHours(0, 0, 0, 0);
 
         const unlocked = secretMessages.filter(msg => {
-            const unlockDate = new Date(msg.unlockDate);
-            unlockDate.setHours(0, 0, 0, 0);
+            // Parse date in local timezone to avoid UTC offset issues
+            const [year, month, day] = msg.unlockDate.split('-').map(Number);
+            const unlockDate = new Date(year, month - 1, day, 0, 0, 0, 0);
             return unlockDate <= today;
         });
 
@@ -58,15 +59,18 @@ const SecretMessages = () => {
     const getDaysUntilUnlock = (unlockDate) => {
         const today = new Date();
         today.setHours(0, 0, 0, 0);
-        const unlock = new Date(unlockDate);
-        unlock.setHours(0, 0, 0, 0);
+        // Parse date in local timezone to avoid UTC offset issues
+        const [year, month, day] = unlockDate.split('-').map(Number);
+        const unlock = new Date(year, month - 1, day, 0, 0, 0, 0);
         const diffTime = unlock - today;
         const diffDays = Math.ceil(diffTime / (1000 * 60 * 60 * 24));
         return diffDays;
     };
 
     const formatDate = (dateString) => {
-        const date = new Date(dateString);
+        // Parse date in local timezone to avoid UTC offset issues
+        const [year, month, day] = dateString.split('-').map(Number);
+        const date = new Date(year, month - 1, day);
         return date.toLocaleDateString('es-ES', {
             year: 'numeric',
             month: 'long',

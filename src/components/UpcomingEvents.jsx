@@ -63,8 +63,9 @@ const UpcomingEvents = () => {
             const newCountdowns = {};
 
             events.forEach(event => {
-                const eventDate = new Date(event.date);
-                eventDate.setHours(0, 0, 0, 0);
+                // Parse date in local timezone to avoid UTC offset issues
+                const [year, month, day] = event.date.split('-').map(Number);
+                const eventDate = new Date(year, month - 1, day, 0, 0, 0, 0);
 
                 const diff = eventDate - now;
 
@@ -102,7 +103,9 @@ const UpcomingEvents = () => {
     }, []);
 
     const formatDate = (dateString) => {
-        const date = new Date(dateString);
+        // Parse date in local timezone to avoid UTC offset issues
+        const [year, month, day] = dateString.split('-').map(Number);
+        const date = new Date(year, month - 1, day);
         return date.toLocaleDateString('es-ES', {
             year: 'numeric',
             month: 'long',
