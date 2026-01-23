@@ -29,7 +29,11 @@ const secretMessages = [
         id: 4,
         unlockDate: '2026-01-22', // Año nuevo
         title: '3 Años y 1 Mes',
-        message: 'Aqui comienza nuestra nueva aventura juntos teniendo 3 años de amor',
+        message: `
+        Aqui comienza nuestra nueva aventura juntos teniendo 3 años de amor te amo demasiado a ti y a tu grandes ojotes  , eres el amor de mi vida  que nunca se te olvide
+        ahora te entrego esta carta digital jejeje  , espero que te guste mucho tu regalo ,  me encanta pasar mucho tiempo contigo espero tener mas aventuras juntos apartir de este 3.1 
+        te amo preciosa ❤️
+        `,
         icon: '🎆'
     }
 ];
